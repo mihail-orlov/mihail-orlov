@@ -1,0 +1,21 @@
+.button {
+    display: inline-block;
+    background: #00C470;
+    height: 60px;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    flex-shrink: 0;
+    flex-grow: 0;
+
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.3s;
+
+    &:hover {
+        background: #00b969;
+    }
+}

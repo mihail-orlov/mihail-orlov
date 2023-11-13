@@ -1,0 +1,36 @@
+.input {
+    display: block;
+    height: 60px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.75);   
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        padding-left: 46px;
+        padding-right: 46px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+}
+
+.input::placeholder {
+    color: #FFF;
+}
+
+.input:focus {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+
+
+

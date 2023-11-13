@@ -1,0 +1,39 @@
+html {
+	height: 100%; /* sticky footer */
+	scroll-behavior: smooth;
+}
+
+body {
+	height: 100%; /* sticky footer */
+	display: flex; /* sticky footer */
+	flex-direction: column; /* sticky footer */
+	font-family: 'Montserrat', sans-serif;
+	color: #2E2E2E;
+}
+
+body > * {
+	flex-shrink: 0; /* sticky footer */
+}
+
+fieldset {
+	border: none;
+}
+
+/* Grid styles */
+
+.container {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* Utility */
+
+.none {
+	display: none !important;
+}
+
+
